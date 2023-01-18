@@ -1,0 +1,2 @@
+AboutButton = //span[text()="About"]
+AboutText = //h5[text()= "About"]
