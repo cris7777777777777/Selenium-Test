@@ -5,10 +5,11 @@
     <classes>
       <class name="Test.TestCase">
         <methods>
-          <include name="VFTC2"/>
           <include name="teardown"/>
+          <include name="VFTC2"/>
           <include name="VFTC1"/>
           <include name="setBrowser"/>
+          <include name="VFTC4"/>
         </methods>
       </class> <!-- Test.TestCase -->
     </classes>

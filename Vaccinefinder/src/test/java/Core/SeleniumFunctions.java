@@ -38,12 +38,6 @@ public class SeleniumFunctions extends BrowserInitialization {
 		pathOfTextFields.sendKeys(texts);
 	}
 	
-	/*public String userDataProperty(String key_of_value) throws Exception {
-		FileReader reader = new FileReader("C:\\Users\\HP\\eclipse-workspace\\Oricoms\\Oricoms\\Oricoms\\Properties\\UserData.properties");
-		property.load(reader);
-		String value = property.getProperty(key_of_value);
-		return value;
-	}*/
 	
 	public String locatorProperties(String key_of_value){
 		FileReader reader;
@@ -72,20 +66,6 @@ public class SeleniumFunctions extends BrowserInitialization {
 		driver.getCurrentUrl();		
 	}
 	
-	/*public void waitingForElementclickable(WebElement elementToWait) {
-		WebDriverWait wait = new WebDriverWait(driver,30);
-		wait.until(ExpectedConditions.elementToBeClickable(elementToWait));		
-	}
-	
-	public void waitingForElementAppear(WebElement elementToWait) {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.visibilityOf(elementToWait));
-	}
-	
-	public void waitingForElementDisappear(WebElement elementToWait) {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.invisibilityOf(elementToWait));
-	}*/
 	
 	public String getTitleFromTextBox(WebElement element) {
 		String title = element.getAttribute("value");

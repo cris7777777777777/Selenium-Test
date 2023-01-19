@@ -7,8 +7,8 @@
       <class name="Test.TestCase">
         <methods>
           <include name="teardown"/>
-          <include name="setBrowser"/>
           <include name="VFTC4"/>
+          <include name="setBrowser"/>
         </methods>
       </class> <!-- Test.TestCase -->
     </classes>

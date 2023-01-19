@@ -8,6 +8,9 @@ public class TestData extends Objectrepository {
 	 public static  String DefaultState = "Kerala";
 	 public static  String DefaultDistrict = "Alappuzha";
 	 public static  String CowinLink = "https://selfregistration.cowin.gov.in/";
+	 public static  String DefaultCovidDistrict = "Ernakulam";
+	 
+	 
 	
 
 }
